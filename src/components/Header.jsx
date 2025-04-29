@@ -3,7 +3,7 @@ import { Search, ShoppingCart, User, Heart, Bell, Menu, X, ChevronDown, MapPin }
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [ubicacion] = useState("Ciudad de México");
+  const [ubicacion] = useState("Lima - Peru");
 
   return (
     <header className="bg-yellow-400 shadow-md">
@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex flex-col md:flex-row items-center">
           {/* Logo */}
           <div className="flex items-center mb-4 md:mb-0">
-            <h1 className="text-2xl font-bold text-blue-900">MercadoClone</h1>
+            <h1 className="text-2xl font-bold text-blue-900">Mercado Gaucho</h1>
             <button 
               className="md:hidden ml-auto" 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>

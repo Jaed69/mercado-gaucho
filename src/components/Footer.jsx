@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-6 border-t border-gray-200 text-center text-sm text-gray-500">
-          <p>&copy; 2025 MercadoClone - Todos los derechos reservados</p>
+          <p>&copy; 2025 Mercado Gaucho - Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
